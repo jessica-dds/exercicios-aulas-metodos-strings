@@ -16,4 +16,4 @@ for (let item of arrayDeNomes) {
     nomeFormatado += primeiraLetra.toLocaleUpperCase() + restanteDoNome + " ";
 }
 
-console.log(nomeFormatado);
+console.log(nomeFormatado.trim());
